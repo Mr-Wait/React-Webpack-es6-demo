@@ -1,0 +1,64 @@
+#header div{
+	float:left;
+	margin-right:10px;
+	}	
+.header_logo{
+	width:300px;
+	height:150px;
+	background-image:url(../images/logo_transparent.png);
+	border:none;
+	}
+.header_search{
+	width:400px;
+	height:150px;
+	background-color:transparent;
+	border: 0 none !important;
+	}
+.header_user{
+	margin:0px;
+	width:270px;
+	height:150px;
+	background-color:transparent;
+	position:relative;
+	}
+#user_nologin{
+	position:relative;
+	width:250px;
+	height:30px;
+	color:#fff;
+	line-height:30px;
+	margin:0 auto;
+	top:60px;
+	left:10px;
+	z-index:1;
+	}
+#user_nologin a{
+	color:yellow;
+	font-size:14px;
+	text-decoration:none;
+	}
+#user_nologin a:hover{
+	color:purple;
+	}
+#user_zone{
+	opacity:0;
+	border:1px red solid;
+	}
+.user_img,.user_help{
+	position:absolute;
+	width:100px;
+	height:100px;
+	background-color:transparent;
+	margin:10px;
+	margin-top:40px;
+	opacity:0;
+	}
+.user_img{
+	left:0px;
+	cursor:pointer;
+	}
+.user_img img{
+	width:100px;
+	height:100px;
+	overflow:hidden;
+	}

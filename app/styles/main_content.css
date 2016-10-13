@@ -1,0 +1,140 @@
+#main_content .classic{
+	width:1000px;
+	height:30px;
+	background:#111;
+	color:#0ff;
+	line-height:30px;
+	}
+#main_content .classic a{
+	position:relative;
+	float:right;
+	color:#ccc;
+	text-decoration:none;
+	}
+#main_content .classic a:hover{
+	color:yellow;
+	text-decoration:underline;
+	}	
+#main_content .share_box,
+#main_content .remend_box,
+#main_content .high_remark_box,
+#main_content .king_click_box{
+	width:312px;
+	height:150px;
+	position:relative;
+	float:left;
+	margin:4px 9px;
+	background-color:#000;
+	color:white;
+	transition:all 0.3s linear;
+	border:1px solid transparent; 
+	cursor:pointer;
+	}
+#main_content .share_box:hover,#main_content .remend_box:hover,
+#main_content .high_remark_box:hover,
+#main_content .king_click_box:hover{
+	box-shadow:0 0 15px #0ff;
+	border:1px #0ff solid;
+	}
+#main_content .module{
+	position:relative;
+	width:1000px;
+	height:350px;
+	}
+#main_content .middle{
+	margin:4px 29px; 
+	}
+#main_content .movie_img_box{
+	width:110px;
+	height:120px;
+	background-color:#000;
+	float:left;
+	}
+#main_content .movie_img,
+#main_content .movie_img img,
+#main_content .movie_img .img_black{
+	width:108px;
+	height:118px;
+	margin:1px;
+	}
+#main_content .movie_img{
+	margin:0px;
+	position:relative;
+	}
+#main_content .movie_img .img_black{
+	background:rgba(0,0,0,0.8);
+	display:none;
+	z-index:-1;
+	position:absolute;
+	}
+#main_content .movie_img .img_black img {
+	margin:36px 33px;
+	width:40px;
+	height:40px;
+	}
+#main_content  span{
+	width:190px;
+	height:20px;
+	font-size:12px;
+	display:block;
+	line-height:20px;
+	overflow:hidden;
+	}
+#main_content  a{
+	text-decoration:none;
+	color:#bbb;
+	}
+#main_content  a:hover{
+	color:yellow;
+	text-decoration:underline;
+	}
+
+#main_content .movie_description{
+	width:190px;
+	height:120px;
+	float:left;
+	}
+#main_content .movie_user{
+	width:300px;
+	height:30px;
+	clear:both;
+	line-height:30px;
+	}
+.movie_user span{
+	width:55px!important;
+	height:30px;
+	line-height:30px;
+	padding-top:5px;
+	color:orange;
+	float:right;
+	font-weight:bold;
+	}
+#main_content  .user_zone{
+	position:relative;
+	width:190px;
+	height:20px;
+	font-size:8px;
+		}
+.user_zone span{
+	width:30px!important;
+	padding-left:20px;
+	height:20px;
+	color:white;
+	display:inline!important;
+	}
+.user_zone .likenum{
+	background:url(../images/like_YN.png) no-repeat -28px 0px;
+	}
+.user_zone .remarknum{
+	background:url(../images/review.png) no-repeat -20px 0px;
+	}
+.user_zone .lovenum{
+	background:url(../images/love_ed.png) no-repeat 0px 0px;
+	}
+#main_content .content-black{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	background:url(../images/load.gif) no-repeat 50% 50% rgba(0,0,0,1.0);
+	z-index: 10;
+}

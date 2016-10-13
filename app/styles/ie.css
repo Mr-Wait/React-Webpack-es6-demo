@@ -1,0 +1,5 @@
+.showTitle,
+.DSliderControl{
+	filter:"alpha(opacity=60)";
+	filter:alpha(opacity=60);
+}

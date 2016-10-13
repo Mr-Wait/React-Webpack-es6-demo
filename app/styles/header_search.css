@@ -1,0 +1,85 @@
+.wrapper{
+	width:400px; margin-left:10px;
+	background:#444; background:rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+	margin-top:30px;
+}
+.near_search{
+	width:380px;
+	height:30px;
+	position:relative;
+	top:10px;
+	left:15px;
+	padding:0;
+	color:white;
+	line-height:30px;
+	overflow:hidden;
+	}
+.near_search a{
+	width:auto;
+	height:30px;
+	line-height:30px;
+	margin-left:5px;
+	padding:0px;
+	text-decoration:none;
+	color:#ccc;
+
+	}
+.near_search a:hover{
+	color:purple;
+	}
+.wrapper input{
+	width:250px; height:20px; padding:10px 25px;
+	padding-right:0px;
+	float:left;  font: bold 15px;
+	border:0 none; 
+	background:#eee url(../images/search_bg.png) no-repeat;
+	background-position:5px 12px;
+	border-radius:3px 0 0 3px;
+}
+.wrapper input:focus{
+	outline:0; background-color:#fff;
+	box-shadow:0 0 2px rgba(0,0,0,.8) inset;
+}
+    
+.wrapper input:-webkit-input-placeholder{
+	color: #999; font-weight: normal; font-style: italic;
+}
+.wrapper input:-moz-placeholder {
+	color: #999; font-weight: normal; font-style: italic;
+}
+.wrapper input:-ms-input-placeholder {
+	color: #999; font-weight: normal; font-style: italic;
+}    
+.wrapper button{
+	position:absolute;
+	border:0 none; cursor:pointer; height:40px; width:90px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color:#fff; text-transform:uppercase; background:#d83c3c;
+	border-radius: 0 3px 3px 0; text-shadow:0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.wrapper button:hover{
+	background:#e54040;
+}
+.wrapper button:active, .wrapper button:focus{
+	background: #c42f2f;
+}
+
+.wrapper button:before{
+	content: ''; position: absolute;
+	border-width: 8px 8px 8px 0;
+	border-style: solid solid solid none;
+	border-color: transparent #d83c3c transparent;
+	top: 12px; left: -6px;
+}
+
+.wrapper button:hover:before{
+	border-right-color: #e54040;
+}
+.wrapper button:focus:before{
+	border-right-color: #c42f2f;
+}    
+.wrapper button:-moz-focus-inner {
+	border: 0; padding: 0;
+}

@@ -1,0 +1,54 @@
+/*                    按钮特效                        */
+.button{ font:15px Calibri, Arial, sans-serif;
+	/*  半透明文本阴影 */
+	text-shadow:1px 1px 0 rgba(255,255,255,0.4);
+	/* 重写默认样式的链接的下划线 */
+	text-decoration:none !important;
+	white-space:nowrap;
+
+	display:inline-block; vertical-align:baseline; position:relative;
+	cursor:pointer; padding:10px 20px; background-repeat:no-repeat;
+	/* 以下两个规则通常,以防浏览器不支持多个背景. */
+	background-position:bottom left;
+	background-image:url('../images/button_bg.png');
+	/* 多个背景版本。背景图片的类定义单独的颜色吗 */
+	background-position:bottom left, top right, 0 0, 0 0;
+	background-clip:border-box;
+	/* 圆角 */
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	/* A 1px highlight inside of the button */
+	-moz-box-shadow:0 0 1px #fff inset;
+	-webkit-box-shadow:0 0 1px #fff inset;
+	box-shadow:0 0 1px #fff inset;
+	/* 动画 背景 位置 目前只能在Safari / Chrome 下看见效果*/
+	-webkit-transition:background-position 1s;
+	-moz-transition:background-position 1s;
+	transition:background-position 1s;
+}
+
+.button:hover{ background-position:top left;
+	background-position:top left, bottom right, 0 0, 0 0;
+}
+
+.button.small{ font-size:15px; padding:5px 7px;}
+.button.msmall{font-size:10px; padding: 0 2px;}
+
+
+.gray{ color:#525252 !important; border:1px solid #a5a5a5 !important; background-color: #a9adb1;
+	background-image:url('../images/button_bg.png'), url('../images/button_bg.png'),
+					-moz-radial-gradient(center bottom, circle, rgba(197,199,202,1) 0,rgba(197,199,202,0) 100px),
+					-moz-linear-gradient(#c5c7ca, #92989c);
+	background-image:url('../images/button_bg.png'), url('../images/button_bg.png'),
+					 -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(197,199,202,1)), to(rgba(197,199,202,0))),
+					 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c5c7ca), to(#92989c));
+}
+.gray:hover{ background-color:#b6bbc0;
+	background-image:url('../images/button_bg.png'), url('../images/button_bg.png'),
+					 -moz-radial-gradient(center bottom, circle, rgba(202,205,208,1) 0,rgba(202,205,208,0) 100px),
+					 -moz-linear-gradient(#d1d3d6, #9fa5a9);
+	background-image:url('../images/button_bg.png'), url('../images/button_bg.png'),
+					 -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(202,205,208,1)), to(rgba(202,205,208,0))),
+					 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d1d3d6), to(#9fa5a9));
+}

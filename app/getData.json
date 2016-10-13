@@ -1,0 +1,33 @@
+
+    [ 
+        {
+            "movie_username":"11111111","movieactors":"fffgff","moviedescription":"fkljgkljklf","movie_image":"images/1.jpg",
+            "moviedirector":"gfjgdjgfldjg","movielike":1,"movielove":"1","moviemark":"5",
+            "moviename":"江洋大盗","movierecord":null,"movietime":"2016-11-08 14:25:10","movietype":"科幻","movieyear":"2015"
+        },
+        {
+            "movie_username":"11111111","movieactors":"fffgff","moviedescription":"fkljgkljklf","movie_image":"images/2.jpg",
+            "moviedirector":"gfjgdjgfldjg","movielike":1,"movielove":"1","moviemark":"5",
+            "moviename":"宿醉3","movierecord":null,"movietime":"2016-07-22 02:25:10","movietype":"动作","movieyear":"2015"
+        },
+        {
+            "movie_username":"11111111","movieactors":"fffgff","moviedescription":"fkljgkljklf","movie_image":"images/3.jpg",
+            "moviedirector":"gfjgdjgfldjg","movielike":1,"movielove":"1","moviemark":"5",
+            "moviename":"钢铁侠","movierecord":null,"movietime":"2016-12-28 12:25:10","movietype":"喜剧","movieyear":"2015"
+        },
+        {
+            "movie_username":"11111111","movieactors":"fffgff","moviedescription":"fkljgkljklf","movie_image":"images/4.jpg",
+            "moviedirector":"gfjgdjgfldjg","movielike":1,"movielove":"1","moviemark":"5",
+            "moviename":"星际穿越","movierecord":null,"movietime":"2016-04-08 01:25:10","movietype":"爱情","movieyear":"2015"
+        },
+        {
+            "movie_username":"11111111","movieactors":"fffgff","moviedescription":"fkljgkljklf","movie_image":"images/5.jpg",
+            "moviedirector":"gfjgdjgfldjg","movielike":1,"movielove":"1","moviemark":"5",
+            "moviename":"环太平洋","movierecord":null,"movietime":"2016-06-08 02:25:10","movietype":"悬疑","movieyear":"2015"
+        },
+        {
+            "movie_username":"11111111","movieactors":"fffgff","moviedescription":"fkljgkljklf","movie_image":"images/4.jpg",
+            "moviedirector":"gfjgdjgfldjg","movielike":1,"movielove":"1","moviemark":"5",
+            "moviename":"海贼王","movierecord":null,"movietime":"2016-01-08 12:25:10","movietype":"科幻","movieyear":"2015"
+        }
+    ]
