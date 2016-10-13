@@ -5,7 +5,7 @@
  import "../styles/main_content.css";
  import "../styles/button.css";
  import "../styles/DSlider.css";
- //js
+ //js 
  import "../scripts/jquery.min.js";
  import "../scripts/Deng.min.js";
  import "../scripts/jQuerySlider.min.js";

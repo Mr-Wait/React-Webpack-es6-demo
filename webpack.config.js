@@ -12,7 +12,7 @@ module.exports = {
     },
     output:{
         path:path.resolve(Root_PATH,'dist'),
-        publicPath:"http://localhost:81/React-Wenpack-Es6-Demo/dist/",
+        publicPath:"http://localhost:81/React-Webpack-Es6-Demo/dist/",
         filename:'[name].js'
     },
     watch:true,
@@ -53,7 +53,7 @@ module.exports = {
         progress:true,
         proxy:{
             'app/*':{
-                target:"http://localhost:81/React-Wenpack-Es6-Demo",
+                target:"http://localhost:81/React-Webpack-Es6-Demo",
                 secure:false
             }
         }
